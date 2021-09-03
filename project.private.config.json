@@ -1,0 +1,100 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "tools",
+          "pathName": "pages/tools/tools",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/Courier/courier",
+          "pathName": "pages/Courier/courier",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "express",
+          "pathName": "pages/express/express",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "about",
+          "pathName": "pages/about/about",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "music",
+          "pathName": "pages/music/music",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "drug",
+          "pathName": "pages/drug/drug",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "bmi",
+          "pathName": "pages/bmi/bmi",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "bmidata",
+          "pathName": "pages/bmidata/bmidata",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "menu",
+          "pathName": "pages/menu/menu",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "menudata",
+          "pathName": "pages/menudata/menudata",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "novel",
+          "pathName": "pages/novel/novel",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "weather",
+          "pathName": "pages/weather/weather",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "surname",
+          "pathName": "pages/surname/surname",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

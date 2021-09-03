@@ -1,0 +1,8 @@
+/* pages/menudata/menudata.wxss */
+Page{
+  background-color: #00b26a;
+}
+.btitle{
+  color: teal;
+  font-size: larger;
+}

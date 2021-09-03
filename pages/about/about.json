@@ -1,0 +1,22 @@
+{
+  "usingComponents": {
+  "l-button":"/miniprogram_npm/lin-ui/button/index",
+  "l-icon":"/miniprogram_npm/lin-ui/icon/index",
+  "l-tabpanel":"/miniprogram_npm/lin-ui/tabpanel/index",
+  "l-tabs":"/miniprogram_npm/lin-ui/tabs/index",
+  "l-tab-bar":"/miniprogram_npm/lin-ui/tab-bar/index",
+  "l-grid":"/miniprogram_npm/lin-ui/grid/index",
+  "l-grid-item":"/miniprogram_npm/lin-ui/grid-item/index",
+  "l-search-bar":"/miniprogram_npm/lin-ui/search-bar/index",
+  "l-card":"/miniprogram_npm/lin-ui/card/index",
+  "l-steps":"/miniprogram_npm/lin-ui/steps/index",
+  "l-step":"/miniprogram_npm/lin-ui/step/index",
+  "l-notice":"/miniprogram_npm/lin-ui/notice-bar/index",
+  "l-list":"/miniprogram_npm/lin-ui/list/index",
+  "l-tag":"/miniprogram_npm/lin-ui/tag/index",
+  "l-collapse":"/miniprogram_npm/lin-ui/collapse/index",
+  "l-collapse-item":"/miniprogram_npm/lin-ui/collapse-item/index",
+  "l-capsule-bar":"/miniprogram_npm/lin-ui/capsule-bar/index"
+}
+  
+}

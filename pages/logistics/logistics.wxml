@@ -1,0 +1,34 @@
+
+
+<view class="logistics-container">
+  <view class="logistics-info">
+    <view class="logistics-info-title">
+     <!-- <image src="https://cloud.miluk.cn/kd.png" mode="widthFix"></image> -->
+     <image src="../images/wuliu.png" mode="widthFix"></image>
+      <view class="logistics-name">{{list.kuaidiname}}</view>
+      <view class="logistics-num">{{list.num}}</view>
+      <view class="line"></view>
+      <view class="logistics-status">{{status[list.status]}}</view>
+    </view>
+    <view class="logistics-box">
+
+      <view class="logistics-item" wx:for="{{list.list}}" wx:key="index">
+        <view class="logistics-item-left">
+          <view class="line-box">
+            <view class="top-line "></view>
+            <view class="bottom-line "></view>
+          </view>
+          <view class="center-circle"></view>
+        </view>
+        <view class="logistics-item-right ">
+          <view class="logistics-item-text">{{item.content}}</view>
+          <view class="logistics-item-time">{{item.time}}</view>
+        </view>
+      </view>
+
+      
+    </view>
+
+    
+  </view>
+</view>

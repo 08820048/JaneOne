@@ -1,0 +1,17 @@
+<!--pages/bmidata/bmidata.wxml-->
+<!--pages/drugdata/drugdata.wxml-->
+<l-card type="cover"
+        
+          image="/image/jc.jpg"
+          title="">
+    <view class="">
+      <view class="logistics-status">
+        <view >BMI:<text class="btitle">{{list.bmi}}</text></view>
+       <view>健康评估: <text class="btitle">{{list.healthy}}</text></view>
+        <view>理想体重:<text class="btitle">{{list.idealweight}}</text></view>
+        <view>正常BMI:<text class="btitle">{{list.normbmi}}</text></view>
+        <view>温馨提示:<text class="btitle">{{list.tip}}</text></view>
+       
+      </view>
+    </view>
+  </l-card>

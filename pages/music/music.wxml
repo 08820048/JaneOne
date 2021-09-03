@@ -1,0 +1,24 @@
+<view class="player">
+<!-- //歌曲封面 -->
+	<view class="musicImg"> 
+		<image class="songImg {{rotated}}" src='{{songImg}}' bindtap="play"></image>
+	</view>
+	<view class="songdetail">
+  <!-- //歌手和歌曲名 -->
+		<view class="song">
+			<text class="songt">{{songTitle}}--{{singer}}</text>
+		</view>
+    <!-- /上一曲下一曲暂停开始 -->
+		<view class="playing">
+			<view class="left" bindtap="pre" data-index="{{songArray.index}}">
+				<image class="pre" src="/image/pre.png"></image>
+			</view>
+			<view class="play" bindtap="play">
+				<image src="{{isActive ? '/image/play.png':'/image/1.png'}}" class="playbtn" ></image>
+			</view>
+			<view class="right" bindtap="next">
+				<image class="next" src="/image/next.png"></image>
+			</view>
+		</view>
+	</view>
+</view>

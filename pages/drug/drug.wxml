@@ -1,0 +1,9 @@
+<!--pages/drug/drug.wxml-->
+
+<view class="search">
+  <input type="text" bindblur="listener" bindinput="listener" placeholder="请输入药品名称" value="{{drugName}}"/>
+
+  <!-- <image mode="widthFix" bindtap="sweep" src="/image/icon_sweep.png"></image> -->
+
+</view>
+<view bindtap="submits" class="bt_submit">查询</view> 

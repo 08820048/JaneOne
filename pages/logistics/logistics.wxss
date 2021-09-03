@@ -1,0 +1,156 @@
+
+.logistics-container {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+
+.logistics-info {
+  background-color: white;
+  width: 686rpx;
+  margin: 32rpx;
+  padding: 0 32rpx;
+  box-sizing: border-box;
+  border-radius: 18rpx;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.logistics-info-title {
+  text-align: center;
+  padding: 32rpx 0;
+  box-sizing: border-box;
+}
+.logistics-info-title image{
+ width: 120rpx;
+}
+.logistics-name{
+  display: block;
+  font-weight: bold;
+  font-size: 40rpx;
+}
+.logistics-num{
+  color: gray;
+  font-size: 30rpx;
+  margin-bottom: 32rpx;
+}
+.line{
+  width: 100%;
+  border-top: 1rpx dashed  gray ;
+}
+.logistics-status{
+  color: #58ACFA;
+  margin: 18rpx 0 0 0 ;
+  font-weight: bold;
+}
+
+
+.logistics-item {
+  width: 100%;
+  display: flex;
+}
+
+.logistics-item-left {
+  position: relative;
+  width: 60rpx;
+}
+
+.line-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 29rpx;
+}
+
+.bg-gray {
+  background-color: #ccc;
+}
+
+.top-line {
+  width: 3rpx;
+  height: 80rpx;
+  background-color: gainsboro;
+}
+
+.bottom-line {
+  flex: 1;
+  width: 1px;
+  background-color: gainsboro;
+}
+
+.map-icon {
+  position: absolute;
+  top: 30rpx;
+  left: 9rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.center-circle {
+  position: absolute;
+  top: 80rpx;
+  left: 22rpx;
+  width: 18rpx;
+  height: 18rpx;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.logistics-item-right {
+  flex: 1;
+  padding: 32rpx 0 32rpx 18rpx;
+  box-sizing: border-box;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.color-gray {
+  color: #ccc;
+}
+
+.logistics-item-text {
+  font-size: 30rpx;
+  margin-bottom: 10rpx;
+}
+
+.logistics-item-time {
+  font-size: 24rpx;
+  color: gray;
+}
+
+.logistics-no-info {
+  padding: 40rpx 0;
+  box-sizing: border-box;
+  text-align: center;
+  color: #ccc;
+}
+.logistics-item:nth-child(1) .center-circle{
+  left: 10rpx;
+   border: 10rpx solid #A9E2F3;
+  background-color: #58ACFA;
+}
+.logistics-item:nth-child(1) .top-line{
+  
+  background-color: white;
+}
+.logistics-item:nth-last-child(1) .bottom-line{
+  
+  background-color: white;
+}
+.logistics-item:nth-child(1) .logistics-item-text{
+  
+  color: #027aff;
+}
+/* pages/weatherdata/weatherdata.wxss */
+/* pages/menudata/menudata.wxss */
+Page{
+  background-color: #00b26a;
+}
+.btitle{
+  color: teal;
+  font-size: larger;
+}

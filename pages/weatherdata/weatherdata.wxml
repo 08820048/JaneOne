@@ -1,0 +1,31 @@
+<!--pages/weatherdata/weatherdata.wxml-->
+<!--pages/drugdata/drugdata.wxml-->
+<l-loadmore show="{{true}}" type="end" loading-text="努力加载中~" end-text="你戳到我的底线啦" line="true">
+  <view slot="content">
+ 
+<l-card  wx:for="{{warr}}" wx:for-item="weather" type="primary"
+          plaintext="{{true}}"
+          title="{{}}">
+          <text>---------------------{{weather[index].date}}-----------------------</text>
+    <view class="content">
+      <view class="logistics-status">
+        <view >城市:<text class="btitle">{{weather[index].area}}</text></view>
+       <view>天气:<text class="btitle">{{weather[index].weather}}</text></view>
+        <view>最高温度:<text class="btitle">{{weather[index].highest}}</text></view>
+        <view>最低温度:<text class="btitle">{{weather[index].lowest}}</text></view>
+        <view>星期:<text class="btitle">{{weather[index].week}}</text></view>
+        <view>湿度:<text class="btitle">{{weather[index].humidity}}</text></view>
+        <view>日出:<text class="btitle">{{weather[index].sunrise}}</text></view>
+        <view>日落:<text class="btitle">{{weather[index].sunset}}</text></view>
+        <view>风向:<text class="btitle">{{weather[index].wind}}</text></view>
+        <view>风力:<text class="btitle">{{weather[index].windsc}}</text></view>
+        <view>风速:<text class="btitle">{{weather[index].windspeed}}</text></view>
+        <view>提示:<text class="btitle">{{weather[index].tips}}</text></view>
+      </view>
+    </view>
+ 
+
+    <!-- <text>---------------------第{{index+1}}道--------------------------</text> -->
+  </l-card>
+  </view>
+</l-loadmore>

@@ -1,0 +1,13 @@
+/* pages/surnamedata/surnamedata.wxss */
+/* pages/menudata/menudata.wxss */
+Page{
+  background-color: #00b26a;
+}
+.btitle{
+  color: teal;
+  font-size: larger;
+}
+.xing{
+  font-size: larger;
+  color: blueviolet;
+}

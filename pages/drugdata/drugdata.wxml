@@ -1,0 +1,11 @@
+<!--pages/drugdata/drugdata.wxml-->
+<l-card type="primary"
+          plaintext="{{true}}"
+          title="{{}}">
+    <view class="content">
+      <view class="logistics-status">
+        <rich-text nodes="{{list.content}}"></rich-text>
+
+      </view>
+    </view>
+  </l-card>

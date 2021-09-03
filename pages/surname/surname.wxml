@@ -1,0 +1,51 @@
+<!--pages/surname/surname.wxml-->
+<!--pages/weather/weather.wxml-->
+                <!-- 通知 -->
+                <l-notice-bar close="{{true}}" show="{{true}}" 
+              type="roll"
+              l-class="notice"
+              end-icon-name="close" 
+              front-icon-size="30"
+              front-icon-name="notification"
+              speed="2500"
+              end-icon-size="30"
+              >
+             该功能存在一些BUG，待修复.....
+</l-notice-bar>
+<l-message/>
+  <l-card type="primary" 
+            plaintext="true"
+            title="">
+        <view class="content">
+  
+        </view> 
+          <form bindsubmit="surname" bindreset="reset" >
+<view class="search">
+  <input type="text"  name="surname" placeholder="姓" value="{{surname}}"/>
+</view>
+<button form-type="submit" class="bt_submit">查询</button> 
+</form>
+    
+    </l-card>
+
+    <l-card type="primary" 
+            plaintext="true"
+            title="常用姓氏">
+        <view class="content">
+<!-- 云标签 -->
+<view class="tagBall">
+  <a class="tag" wx:for="{{tagEle}}" wx:key="{{index}}" style="opacity:{{item.o}};z-index:{{item.z}};left: {{item.x}}rpx;top: {{item.y}}rpx;transform: scale({{item.s}})">
+    {{item.title}}
+  </a>
+</view>
+</view>
+</l-card>
+
+  
+
+
+
+
+
+
+

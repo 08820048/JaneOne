@@ -1,0 +1,14 @@
+<!--pages/surnamedata/surnamedata.wxml-->
+<!--pages/drugdata/drugdata.wxml-->
+<l-card   type="primary"
+          plaintext="{{true}}"
+          title="{{}}">
+          <!-- <text class="xing">-------------------------{{list.xing}}姓起源--------------------------</text> -->
+    <view class="content">
+      <view class="logistics-status">
+      <!-- <view><text>{{surname[index].content}}</text></view> -->
+        <rich-text nodes="{{list.content}}"></rich-text>
+      </view>
+    </view>
+    <!-- <text>---------------------第{{index+1}}道--------------------------</text> -->
+  </l-card>

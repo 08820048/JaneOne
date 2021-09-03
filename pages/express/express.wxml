@@ -1,0 +1,13 @@
+<view class="search">
+  <input type="text" bindblur="listener" bindinput="listener" placeholder="请输入快递单号" value="{{num}}"/>
+
+  <image mode="widthFix" bindtap="sweep" src="/image/icon_sweep.png"></image>
+
+</view>
+<view bindtap="submits" class="bt_submit">查询</view> 
+<!-- <view class="linkcopy">
+            <view class="bt_submit" bindtap='copyText' data-text="{{contents}}">大学刷课网</view>
+         </view>
+<view  class="bt_submit">广告位1</view>
+<view  class="bt_submit">广告位2</view>
+<view class="bt_submit" bindtap='copyQQ' data-text="{{qq}}">合作QQ:</view> -->

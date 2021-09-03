@@ -1,0 +1,26 @@
+<!--pages/night/night.wxml-->
+<!--pages/drug/drug.wxml-->
+<form bindsubmit="food" bindreset="reset" >
+<view class="search">
+  <input type="text" bindblur="listener_h" name="food" placeholder="输入食材或菜名" value="{{food}}"/>
+  </view>
+  <view class="search">
+  <input type="number" bindblur="listener_w" name="number" placeholder="输入数量" value="{{number}}"/>
+</view>
+<button form-type="submit" class="bt_submit">上菜</button> 
+</form>
+
+    <!-- love -->
+    <l-card type="cover" 
+            image="/image/food.jpg"
+            title="小纸条:">
+        <view class="content">
+        <view>  <text>只要告诉我你爱吃什么，我就能知道你是什么样的人。——萨瓦林 </text> </view>
+          <view><text>趁你还年轻,还可爱,给你爱的人做一顿饭吧！</text></view>
+        </view>
+    </l-card>
+  
+
+
+
+

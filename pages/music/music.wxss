@@ -1,0 +1,92 @@
+/* pages/music/music.wxss */
+.player{
+  height: 10vh;
+  display: flex;
+  width: 80vw;
+  margin-top: 5vh;
+  margin-left: 10vw;
+  border-radius: 5vh;
+  position: absolute;
+  overflow: hidden;
+  background-color: aqua;
+}
+.musicImg{
+  position: relative;
+  height: 8vh;
+  width: 8vh;
+  margin-top: 1vh;
+  margin-left: 3vw;
+  border-radius: 50%;
+}
+.songImg{
+  height: 8vh;
+  width: 8vh;
+  border-radius: 50%;
+}
+.rotated{
+  animation: headRotate 10s linear infinite;
+}
+.songdetail{
+  position: relative;
+  height: 9vh;
+  width: 60vw;
+  margin-top: 0.5vh;
+  margin-left: 1vh;
+}
+.songt{
+  height: 4vh;
+  width: 50vw;
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  animation: dmAnimation 10s linear infinite;
+}
+.song{
+  position: relative;
+  height: 4vh;
+  line-height: 4vh;
+  width: 50vw;
+  margin-left: 2vw;
+  overflow: hidden;
+}
+.playing{
+  display: flex;
+  position: relative;
+  height: 5vh;
+  width: 55vw;
+  margin-bottom: 0.5vh;
+  margin-left: 1vw;
+  border-radius: 2.5vh;
+}
+.pre{
+  margin-top: 0.5vh;
+  margin-right: 1vw;
+  margin-left: 7vw;
+  height: 4vh;
+  width: 4vh;
+}
+.next{
+  margin-top: 0.5vh;
+  margin-right: 1vw;
+  margin-left: 7vw;
+  height: 4vh;
+  width: 4vh;
+}
+.playbtn{
+  margin-top: 0.5vh;
+  margin-right: 1vw;
+  margin-left: 7vw;
+  height: 4vh;
+  width: 4vh;
+}
+/* 封面转动 */
+@keyframes headRotate{
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
+}
+/* 歌名转动 */
+@keyframes dmAnimation{
+  0% { transform: translateX(-5%); } 
+  100% { transform: translateX(10%); }
+}

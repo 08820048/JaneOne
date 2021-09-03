@@ -1,0 +1,115 @@
+<!-- 显示 success 的提示框 -->
+<l-toast
+  show="{{true}}"
+  icon="success"
+  title="欢迎使用【简一】"
+/>
+          
+                <!-- 通知 -->
+      <l-notice-bar close="{{true}}" show="{{true}}" 
+              type="roll"
+              l-class="notice"
+              end-icon-name="close" 
+              front-icon-size="30"
+              front-icon-name="notification"
+              speed="2500"
+              end-icon-size="30"
+              >
+              清风吹歌入空去，歌曲自绕行云飞。欢迎使用【简一】^_^ ^_^
+</l-notice-bar>
+          <l-search-bar placeholder="请输入服务内容..."
+                bg-color="#f6f6f6"
+                clear="true"
+                 show-cancel="{{false}}"
+                />
+<view class="div">
+
+  <!-- 标签页tabls -->
+      <l-tabs  animated="true" bind:linchange="changeTabs">
+        <l-tabpanel tab="生活服务" key="one" slot="one">
+          <view class="tab-content">
+          <!-- 生活服务类 -->
+
+          <l-grid bind:lintap="express" l-class="grid" show-border="{{false}}">
+    <l-grid-item 
+      wx:for="{{life}}" wx:key="{{index}}" key="{{index}}" slot="{{index}}">
+        <l-icon name="{{item.image}}" size="80" color="#00b26a" l-class='iconfont'/>
+        <view class="text">{{item.text}}</view>
+    </l-grid-item>
+</l-grid>
+<!-- 生活服务类结束 -->
+          </view>
+        </l-tabpanel>
+
+        <l-tabpanel tab="趣味娱乐" key="two" slot="two">
+          <view class="tab-content">
+           <!-- 趣味娱乐类 -->
+          <l-grid l-class="grid" show-border="{{false}}">
+    <l-grid-item 
+      wx:for="{{interest}}" wx:key="{{index}}" key="{{index}}" slot="{{index}}">
+        <l-icon name="{{item.image}}" size="80" color="#cc0000" l-class='iconfont'/>
+        <view class="text">{{item.text}}</view>
+    </l-grid-item>
+</l-grid>
+<!-- 趣味娱乐类结束 -->
+      </view>
+        </l-tabpanel>
+        <l-tabpanel tab="知识问答" key="three" slot="three">
+          <view class="tab-content">
+      
+               <!-- 知识问答类 -->
+          <l-grid  l-class="grid1" show-border="{{false}}">
+    <l-grid-item 
+      wx:for="{{knows}}" wx:key="{{index}}" key="{{index}}" slot="{{index}}">
+        <l-icon name="{{item.image}}" size="80" l-class='iconfont'/>
+        <view class="text">{{item.text}}</view>
+    </l-grid-item>
+</l-grid>
+<!-- 知识问答类结束 -->
+          </view>
+        </l-tabpanel>
+        <l-tabpanel tab="智能识别" key="four" slot="four">
+          <view class="tab-content">
+                   
+                          <!-- 智能识别类 -->
+          <l-grid l-class="grid2" show-border="{{false}}">
+    <l-grid-item 
+      wx:for="{{ai}}" wx:key="{{index}}" key="{{index}}" slot="{{index}}">
+        <l-icon name="{{item.image}}" size="80" l-class='iconfont'/>
+        <view class="text">{{item.text}}</view>
+    </l-grid-item>
+</l-grid>
+<!-- 智能识别类结束 -->
+          </view>
+        </l-tabpanel>
+      </l-tabs>
+      <!-- <l-tab-bar list="{{list}}" /> -->
+
+
+      <!-- 音乐开始 -->
+<view class="player">
+<!-- 歌曲封面 -->
+	<view class="musicImg"> 
+		<image class="songImg {{rotated}}" src='{{songImg}}' bindtap="play"></image>
+	</view>
+	<view class="songdetail">
+  <!-- 歌手和歌曲名 -->
+		<view class="song">
+			<text class="songt">{{songTitle}}--{{singer}}</text>
+		</view>
+    <!-- 上一曲下一曲暂停开始 -->
+		<view class="playing">
+			<view class="left" bindtap="pre" data-index="{{songArray.index}}">
+				<image class="pre" src="/image/pre.png"></image>
+			</view>
+			<view class="play" bindtap="play">
+				<image src="{{isActive ? '/image/play.png':'/image/pause.png'}}" class="playbtn" ></image>
+			</view>
+			<view class="right" bindtap="next">
+				<image class="next" src="/image/next.png"></image>
+			</view>
+		</view>
+	</view>
+</view>
+<!-- 音乐结束 -->
+      </view>

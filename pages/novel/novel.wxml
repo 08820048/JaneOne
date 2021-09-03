@@ -1,0 +1,54 @@
+                <!-- 通知 -->
+                <l-notice-bar close="{{true}}" show="{{true}}" 
+              type="roll"
+              l-class="notice"
+              end-icon-name="close" 
+              front-icon-size="30"
+              front-icon-name="notification"
+              speed="2500"
+              end-icon-size="30"
+              >
+             本功能数据处于解析阶段，功能暂不可用....
+</l-notice-bar>
+<l-message/>
+  <l-card type="cover" 
+            image="/image/yiqing.jpg"
+            title="小常识:">
+        <view class="content">
+   
+  <view class="search">
+  <input type="text" listen="user" disabled="true" name="food" placeholder="这里将会显示你的选择" value="{{date}}"/>
+  </view>
+        <view><text  class="yi">○新冠状病毒感染所致肺炎 </text> </view>
+        <view><text  class="yi">○起初发热，乏力，干咳，逐渐出现呼吸困难等 </text> </view>
+        <view><text  class="yi">○具备人传染人的能力，正确佩戴口罩加强防护</text> </view>
+        <view><text  class="yi">○多数预后良好，少数病情危重，甚至可致死亡 </text> </view>
+        </view>
+    </l-card>
+
+    <picker  mode="date" value="{{date}}" start="2020-02-12" end="2022-02-12" bindchange="bindDateChange">
+    <view class="picker">
+      点我选择
+    </view>
+  </picker>
+<!-- 显示 success 的提示框 -->
+<!-- <l-toast
+  show="{{true}}"
+  icon="success"
+  title="成功提示框"
+/> -->
+    <!-- love -->
+    <!-- <l-card type="cover" 
+            image="/image/food.jpg"
+            title="小纸条:">
+        <view class="content">
+        <view>  <text>只要告诉我你爱吃什么，我就能知道你是什么样的人。——萨瓦林 </text> </view>
+          <view><text>趁你还年轻,还可爱,给你爱的人做一顿饭吧！</text></view>
+        </view>
+    </l-card> -->
+  
+
+
+
+
+

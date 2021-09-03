@@ -1,0 +1,4 @@
+/* pages/drugdata/drugdata.wxss */
+Page{
+  background-color: #00b26a;
+}

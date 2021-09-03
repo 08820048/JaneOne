@@ -1,0 +1,104 @@
+<!-- <view class="search"> -->
+
+<!-- CapsuleBar 基础用法 -->
+
+    <l-card l-class="title" type="cover"
+        l-title-class="xiexie"
+          full="{{false}}"
+          image="/image/logo.png"
+          position="right"
+          title="关于简一:">
+     <view class="content">
+   
+     <text>
+  简单实用,一个就够了
+   这便是[简一]诞生的初衷.
+     </text>
+      
+    </view>
+  </l-card>
+<!-- </view> -->
+
+
+
+
+<view class="search_2">
+<l-collapse type="accordion">
+  <l-collapse-item title="策划/美工" animation-time="0.5" bind:linexpand="blog">
+    <view> 策划:<text class="share">徐毅</text></view>
+     <view> 美工:<text class="share">徐毅</text></view>
+  </l-collapse-item>
+  <l-collapse-item title="团队/成员">
+       <view> 队伍:<text class="share">静如瘫痪.动如癫痫</text></view>
+     <view> 成员:<text class="share">徐毅</text></view>
+  </l-collapse-item>
+  <l-collapse-item title="开发/维护">
+       <view> 开发:<text class="share">徐毅</text></view>
+     <view> 维护:<text class="share">徐毅</text></view>
+  </l-collapse-item>
+    <l-collapse-item title="博客/邮箱">
+  <view> Blog:<text class="share" bindtap='blog' data-text="{{blog}}">https://www.waer.ltd</text></view>
+     <view> Email:<text class="share" bindtap='email' data-text="{{email}}">2217021563@qq.com</text></view>
+  </l-collapse-item>
+</l-collapse>
+</view>
+
+<!-- <view class="search_1"> -->
+  <l-card type="primary"
+          plaintext="{{true}}"
+          l-class="title"
+          l-title-class="xiexie"
+          title="特别鸣谢:">
+    <view class="content">
+    <view>●LinUI开源框架支持</view>
+    <view>●天行数据支持</view>
+  
+    <view>●腾讯运营团队</view>
+    </view>
+  </l-card>
+<!-- </view> -->
+
+
+<view class="search_3">
+<view class="miss">
+<text>
+或许你想:
+</text>
+</view>
+<view class="search_1">
+ <l-button special="{{true}}" open-type="contact">
+      <!-- <l-icon class="icon" size="30" name="customer-service" color="#3683d6" /> -->
+      <text class="describe">联系客服</text>
+  </l-button>
+</view>
+<view class="search_1">
+ <l-button special="{{true}}" open-type="contact">
+      <!-- <l-icon class="icon" size="30" name="customer-service" color="#3683d6" /> -->
+      <text class="describe">意见反馈</text>
+  </l-button>
+</view>
+<view class="search_1">
+ <l-button special="{{true}}" open-type="contact">
+      <!-- <l-icon class="icon" size="30" name="customer-service" color="#3683d6" /> -->
+      <text class="describe">邀请好友</text>
+  </l-button>
+</view>
+<view class="search_1">
+ <l-button special="{{true}}" open-type="contact">
+      <!-- <l-icon class="icon" size="30" name="customer-service" color="#3683d6" /> -->
+      <text class="describe">调戏小简</text>
+  </l-button>
+</view>
+</view>
+
+
+
+<!-- 
+ <l-button special="{{true}}" open-type="contact">
+    <view class="container">
+      <l-icon size="40" name="customer-service" color="#3683d6" />
+      <text class="describe">客服</text>
+    </view>
+  </l-button> -->
+  
+   

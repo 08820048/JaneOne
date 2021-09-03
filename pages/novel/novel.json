@@ -1,0 +1,20 @@
+{
+  "usingComponents": {
+    "l-button":"/miniprogram_npm/lin-ui/button/index",
+    "l-icon":"/miniprogram_npm/lin-ui/icon/index",
+    "l-tabpanel":"/miniprogram_npm/lin-ui/tabpanel/index",
+    "l-tabs":"/miniprogram_npm/lin-ui/tabs/index",
+    "l-tab-bar":"/miniprogram_npm/lin-ui/tab-bar/index",
+    "l-grid":"/miniprogram_npm/lin-ui/grid/index",
+    "l-grid-item":"/miniprogram_npm/lin-ui/grid-item/index",
+    "l-search-bar":"/miniprogram_npm/lin-ui/search-bar/index",
+    "l-card":"/miniprogram_npm/lin-ui/card/index",
+    "l-notice-bar":"/miniprogram_npm/lin-ui/notice-bar/index",
+    "l-input":"/miniprogram_npm/lin-ui/input/index",
+    "l-form":"/miniprogram_npm/lin-ui/form/index",
+    "l-form-item":"/miniprogram_npm/lin-ui/form-item/index",
+    "l-calendar":"/miniprogram_npm/lin-ui/calendar/index",
+    "l-toast":"/miniprogram_npm/lin-ui/toast/index",
+    "l-message":"/miniprogram_npm/lin-ui/message/index"
+  }
+}

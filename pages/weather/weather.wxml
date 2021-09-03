@@ -1,0 +1,34 @@
+<!--pages/weather/weather.wxml-->
+
+<l-message/>
+  <l-card type="cover" 
+            image="/image/weather.jpg"
+            title="说明:">
+        <view class="content">
+          <view><text  class="yi">○城市名称和城市天气ID只能二选一输入 </text> </view>
+        <view><text  class="yi">○误触触发输入框无法输入请下拉解除 </text> </view>
+        <view><text  class="yi">○城市天气ID请移步百度了解</text> </view>
+        <!-- <view><text  class="yi">○多数预后良好，少数病情危重，甚至可致死亡 </text> </view> -->
+        </view> 
+          <form bindsubmit="weather" bindreset="reset" >
+<view class="search">
+  <input type="text" bindfocus="dis"  disabled="{{in1}}"  name="city" placeholder="城市名称" value="{{city}}"/>
+|
+  <input type="text" bindfocus="dis" disabled="{{in2}}" name="id" placeholder="城市天气ID" value="{{id}}"/>
+</view>
+<button form-type="submit" class="bt_submit">查询</button> 
+<button form-type="reset" class="bt_submit">重置</button> 
+</form>
+      
+    </l-card>
+
+   
+
+
+  
+
+
+
+
+
+

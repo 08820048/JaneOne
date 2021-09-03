@@ -1,0 +1,130 @@
+/* pages/about/about.wxss */
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+page{
+  background-color: #f6f6f6;
+}
+.search{
+  margin: 12rpx 32rpx 32rpx 32rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  box-shadow: 0 4rpx 20rpx 0rem rgba(212, 217, 223, .5);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.search_1{
+  margin:  12rpx 32rpx 30rpx 32rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  /* box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 4rem 20rem 0 rgba(212, 217, 223, .5);
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.search_2{
+  margin:  12rpx 32rpx 32rpx 32rpx;
+  background-color: white;
+  border-radius: 5rpx;
+ box-shadow: 0 4rem 20rem 0rem rgba(212, 217, 223, .5);
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.search_3{
+  margin:  1rpx 32rpx 1rpx 32rpx;
+  background-color: white;
+  border-radius: 5rpx;
+  box-shadow:  0 4rem 20rem 0rem rgba(212, 217, 223, .5);
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.search input{
+  width: 100%;
+  display: inline-block;
+  padding: 32rpx 48rpx;
+}
+.search image{
+  margin-right: 32rpx;
+  display: inline-block;
+  width: 60rpx;
+  height: 60rpx;
+}
+.close{
+  display: inline-block;
+  margin-right: 18rpx;
+}
+.bt_submit{
+  text-align: center;
+  padding: 18rpx 0;
+  width: 686rpx;
+  margin: 64rpx 32rpx;
+  color: white;
+  background-color: #58ACFA;
+   border-radius: 12rpx;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.15);
+}
+.content{
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(26, 140, 234);
+}
+.share{
+  color: rgb(26, 140, 234);
+}
+.end{
+  margin:  12rpx 32rpx 32rpx 32rpx;
+  background-color: white;
+  border-radius: 0rpx;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.15);
+
+  /* justify-content: space-between;
+  align-content: center;
+  align-items: center; */
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.describe {
+  color: #3683d6;
+  font-size: 28rpx;
+  margin-left:280rpx;
+  
+}
+.miss{
+  color: #333333;
+  font-size: 28rpx;
+  margin-left: 10rpx;
+}
+.xiexie{
+  color: #333333;
+  font-size: 28rpx;
+  margin-left: -18rpx;
+}
+/* .jiangyi{
+  color: #333333;
+  font-size: rpx;
+  margin-left: -30rpx;
+} */
+.T1{
+  margin: 2rpx 32rpx 32rpx 32rpx;
+  background-color: white;
+  border-radius: 20rpx;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.15);
+  display: block;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+
+}

@@ -1,0 +1,84 @@
+/* pages/surname/surname.wxss */
+/* pages/weather/weather.wxss */
+/* pages/night/night.wxss */
+
+/* pages/bmi/bmi.wxss */
+/* pages/drug/drug.wxss */
+page{
+  background-color: #f6f6f6;
+}
+.search{
+
+  margin: 32rpx 32rpx 32rpx 32rpx;
+  background-color: white;
+  border-radius: 18rpx;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.search input{
+  width: 100%;
+  display: inline-block;
+  padding: 32rpx 48rpx;
+}
+.search image{
+  margin-right: 32rpx;
+  display: inline-block;
+  width: 60rpx;
+  height: 60rpx;
+}
+.close{
+  display: inline-block;
+  margin-right: 18rpx;
+}
+.bt_submit{
+  text-align: center;
+  padding: 18rpx 0;
+  width: 686rpx;
+  margin: 64rpx 32rpx;
+  color: white;
+  background-color: #00b26a;
+   border-radius: 12rpx;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.15);
+}
+.section__title{
+  background-color: rgb(236, 227, 227);
+  border-radius: 18rpx;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.15);
+  color: #00b26a;
+}
+.picker{
+margin:0;
+padding:0;
+text-align: center;
+margin-top: 90rpx;
+color: cadetblue;
+}
+
+.yi{
+  font-size: small;
+  color: rgb(104, 102, 100);
+}
+.tagBall{
+  width: 420rpx;
+  height: 300rpx;
+  margin:300rpx auto;
+  position: relative;
+  text-align: center;
+  left: 180rpx;
+}
+.tag{
+  display: block;
+  position: absolute;
+  left: 0rpx;
+  top: 0rpx;
+  color: #000;
+  text-decoration: none;
+  font-size: 32rpx;
+  font-family: "微软雅黑";
+  font-weight: bold;
+}
+.tag:hover{border:1px solid #666;}

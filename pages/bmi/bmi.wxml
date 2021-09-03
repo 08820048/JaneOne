@@ -1,0 +1,19 @@
+<!--pages/bmi/bmi.wxml-->
+<form bindsubmit="bmi" bindreset="reset" >
+<view class="search">
+
+  <input type="number" bindblur="listener_h" name="h" placeholder="请输入身高cm" value="{{height}}"/>
+|
+  <input type="number" bindblur="listener_w" name="w" placeholder="请输入体重kg" value="{{weight}}"/>
+</view>
+<button form-type="submit" class="bt_submit">查询</button> 
+</form>
+   <!-- cover -->
+   <l-card type="cover" 
+            image="/image/BMI.png"
+            title="小科普">
+        <view class="content">
+          身体质量指数，是BMI指数，简称体质指数，
+          是国际上常用的衡量人体胖瘦程度以及是否健康的一个标准。
+        </view>
+    </l-card>

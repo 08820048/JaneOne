@@ -1,0 +1,24 @@
+<!--pages/noveldata/noveldata.wxml-->
+<l-card  wx:for="{{narr}}" wx:for-item="food" type="primary"
+          plaintext="{{true}}"
+          title="{{}}">
+          <text>-------------------------第{{index+1}}道---------------------------</text>
+    <view class="content">
+      <view class="logistics-status">
+     <view>{{list.desc}}</view>
+        <!-- <view>
+        <text wx:for="{{farr}}" wx:for-item="item">{{item[index].cp_name}}</text>
+
+        </view> -->
+        <view >菜名:<text class="btitle">{{food[index].id}}</text></view>
+       <view>口感: <text class="btitle">{{food[index].texing}}</text></view>
+        <view>调料:<text class="btitle">{{food[index].tiaoliao}}</text></view>
+        <view>提示:<text class="btitle">{{food[index].tishi}}</text></view>
+        <view>类型/对象:<text class="btitle">{{food[index].type_name}}</text></view>
+        <view>原料:<text class="btitle">{{food[index].yuanliao}}</text></view>
+        <view>做法:<text class="btitle">{{food[index].zuofa}}</text></view>
+       
+      </view>
+    </view>
+    <!-- <text>---------------------第{{index+1}}道--------------------------</text> -->
+  </l-card>

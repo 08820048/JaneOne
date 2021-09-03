@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/tools/tools",
+    "pages/index/index",
+    "pages/logs/logs",
+    "custom-tab-bar/index",
+    "pages/about/about",
+    "pages/logistics/logistics",
+    "pages/express/express",
+    "pages/music/music",
+    "pages/drug/drug",
+    "pages/drugdata/drugdata",
+    "pages/bmi/bmi",
+    "pages/bmidata/bmidata",
+    "pages/menudata/menudata",
+    "pages/menu/menu",
+    "pages/novel/novel",
+    "pages/noveldata/noveldata",
+    "pages/weather/weather",
+    "pages/weatherdata/weatherdata",
+    "pages/surname/surname",
+    "pages/surnamedata/surnamedata"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1e88e5",
+    "navigationBarTitleText": "简一",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#2e2e2e",
+    "selectedColor": "#42a5f5",
+    "borderStyle": "white",
+    "backgroundColor": "#1e88e5",
+    "list": [
+      {
+        "pagePath": "pages/tools/tools",
+        "iconPath": "image/about.png",
+        "selectedIconPath": "image/about_1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "image/tools.png",
+        "selectedIconPath": "image/tools_1.png",
+        "text": "关于"
+      }
+    ]
+  },
+  "usingComponents": {
+    "l-button": "/miniprogram_npm/lin-ui/button/index",
+    "l-icon": "/miniprogram_npm/lin-ui/icon/index",
+    "l-tabpanel": "/miniprogram_npm/lin-ui/tabpanel/index",
+    "l-tabs": "/miniprogram_npm/lin-ui/tabs/index",
+    "l-tab-bar": "/miniprogram_npm/lin-ui/tab-bar/index",
+    "l-grid": "/miniprogram_npm/lin-ui/grid/index",
+    "l-grid-item": "/miniprogram_npm/lin-ui/grid-item/index",
+    "l-search-bar": "/miniprogram_npm/lin-ui/search-bar/index",
+    "l-card": "/miniprogram_npm/lin-ui/card/index",
+    "l-notice-bar": "/miniprogram_npm/lin-ui/notice-bar/index",
+    "l-input": "/miniprogram_npm/lin-ui/input/index",
+    "l-form": "/miniprogram_npm/lin-ui/form/index",
+    "l-form-item": "/miniprogram_npm/lin-ui/form-item/index",
+    "l-calendar": "/miniprogram_npm/lin-ui/calendar/index",
+    "l-toast": "/miniprogram_npm/lin-ui/toast/index",
+    "l-message": "/miniprogram_npm/lin-ui/message/index"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
