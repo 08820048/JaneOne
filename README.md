@@ -1,5 +1,18 @@
 # JaneOne
 微信工具类小程序【简一】：简单实用，一个就够了，这便是简一诞生的初衷！
+
+<p align="center">
+    <a href="#投稿"><img src="https://img.shields.io/badge/在校-实训-blue.svg" alt="投稿"></a>
+  <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-白码手记-lightgrey.svg" alt="公众号"></a>
+  <a href="#公众号"><img src="https://img.shields.io/badge/语言-JavaScript-important.svg" alt="公众号"></a>
+  <a href="#公众号"><img src="https://img.shields.io/badge/微信小程序-使用工具-important.svg" alt="公众号"></a>
+  <a href="#投稿"><img src="https://img.shields.io/badge/support-持续优化-green.svg" alt="投稿"></a>
+  <a href="#投稿"><img src="https://img.shields.io/badge/前端框架-LinUI-orange.svg" alt="投稿"></a>
+  <a href="#投稿"><img src="https://img.shields.io/badge/Ajax-Json-yellow.svg" alt="投稿"></a>
+  <a href="#投稿"><img src="https://img.shields.io/badge/数据库-暂无-red.svg" alt="投稿"></a>
+  <a href="#公众号"><img src="https://img.shields.io/badge/简一-JaneOne-blue.svg" alt="公众号"></a>
+</p>
+
 ### 已实现部分功能：
 - 初步的页面设计
 - 初步的功能模块分类确认
